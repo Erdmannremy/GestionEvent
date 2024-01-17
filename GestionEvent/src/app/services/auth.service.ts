@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class authService {
+export class AuthService {
 
   isConnected :boolean = true
 
@@ -11,7 +11,7 @@ export class authService {
     this.isConnected = true
           }
   logout(){
-  this.isConnected = false
+   this.isConnected = false
           }
 
 }
