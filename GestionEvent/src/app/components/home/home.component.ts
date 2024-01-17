@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
 isConnected! : boolean
-constructor(private service : FakeauthService){
+constructor(private service : AuthService){
   this.isConnected = service.isConnected
 }
 
